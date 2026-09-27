@@ -392,3 +392,69 @@ nav ul li a{
 nav ul li a:hover{
     color:#38bdf8;
 }
+
+.contact-form{
+    max-width:650px;
+    margin:40px auto;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    background:#091a38;
+    color:white;
+    border:1px solid #1ea7ff;
+    padding:16px;
+    border-radius:12px;
+    font-size:16px;
+}
+
+.contact-form textarea{
+    resize:none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline:none;
+    box-shadow:0 0 15px #1ea7ff;
+}
+
+.contact-form button{
+    width:220px;
+    align-self:center;
+}
+
+.contact-form{
+    max-width:650px;
+    margin:40px auto;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    background:#091a38;
+    color:white;
+    border:1px solid #19b5fe;
+    border-radius:12px;
+    padding:16px;
+    font-size:16px;
+}
+
+.contact-form textarea{
+    resize:none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline:none;
+    box-shadow:0 0 15px rgba(25,181,254,.6);
+}
+
+.contact-form button{
+    width:220px;
+    align-self:center;
+}
